@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.LechSaver" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">#0f0f0f</item>
+    </style>
+</resources>
