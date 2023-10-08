@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Lech Saver</string>
+    <string name="quick_download">Save on Lech</string>
+    <string name="github">https://github.com/lechixy/lechsaver</string>
+    <string-array name="app_version">
+        <item>1.0</item>
+        <item>1.1</item>
+    </string-array>
+    <string-array name="app_version_date">
+        <item>Oct 5, 2023</item>
+        <item>Oct 8, 2023</item>
+    </string-array>
 </resources>

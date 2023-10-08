@@ -3,4 +3,11 @@
     <style name="Theme.LechSaver" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowSplashScreenBackground" tools:targetApi="s">#0f0f0f</item>
     </style>
+    <style name="Theme.LechSaver.Dialog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 </resources>
