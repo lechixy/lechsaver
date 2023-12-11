@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.LechSaver" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:windowSplashScreenBackground" tools:targetApi="s">#0f0f0f</item>
+    <style name="Theme.LechSaver.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0f0f0f</item>
+        <item name="postSplashScreenTheme">@style/Theme.LechSaver</item>
     </style>
+
+    <style name="Theme.LechSaver" parent="Theme.Design.NoActionBar">
+    </style>
+
     <style name="Theme.LechSaver.Dialog" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>

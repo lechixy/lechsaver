@@ -1,4 +1,4 @@
-package com.lechixy.lechsaver
+package com.lechixy.lechwidgets.common
 
 class Util {
     companion object {

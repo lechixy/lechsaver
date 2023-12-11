@@ -7,20 +7,17 @@
 
     <application
         android:allowBackup="true"
+        android:enableOnBackInvokedCallback="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LechSaver"
-        tools:targetApi="31"
+        android:theme="@style/Theme.LechSaver.Starting"
+        tools:targetApi="tiramisu"
         android:hardwareAccelerated="true">
         <activity
-            android:name=".Settings"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.LechSaver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +29,7 @@
             android:label="@string/quick_download"
             android:exported="true"
             android:theme="@style/Theme.LechSaver.Dialog"
+            android:excludeFromRecents="true"
             android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -40,5 +38,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

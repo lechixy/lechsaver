@@ -10,4 +10,13 @@
         <item>Oct 5, 2023</item>
         <item>Oct 8, 2023</item>
     </string-array>
+
+    <string name="settings">Settings</string>
+    <string name="general">General</string>
+    <string name="general_desc">Downloader choices</string>
+    <string name="about">About</string>
+    <string name="about_desc">Somethings about the app</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="dismiss">Dismiss</string>
 </resources>
